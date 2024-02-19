@@ -17,6 +17,22 @@ Note: the board does not have the capability to program the 25Q32 spiflash in-pl
 
 The pinout of the board is as such (a KiCad symbol is [also available](board_symbol.kicad_sym)):
 
-![](Screenshot from 2024-02-19 14-44-46.png)
+![](Screenshot_from_2024-02-19_14-44-46.png)
 
 Note that 3V3 is a output from the on-board voltage regulator. The only power input is 5V.
+
+To edit the KiCad files, you will need to add the ``Caravel_Board.pretty`` footprint files from the efabless/caravel_board repo, which can be obtained [here](https://github.com/efabless/caravel_board/tree/main/hardware/footprints/Caravel_Board.pretty).
+
+# BOM
+
+| Designator(s) | Value       | TME # | Mouser # |
+|---------------|-------------|-------|----------|
+| U1         | AMS1117-3.3 | AZ1117H-3.3TRE1 | 595-REG1117-3.3 |
+| U2         | 25Q32 or compatible       | MX25L1006EMI-10G | 454-W25Q32JVSSIMTR |
+| U3         | MCP1319MT | MCP1319MT-29LT | 579-MCP1319MT29LE/OT |
+| U4         | GFMPW IC | N/A | N/A |
+| U5, U6, U7, U8 | SN74LV1T34 | SN74LV1T34DBVRG4 | 595-SN74LV1T34DBVRG4 |
+| D1, D2 | LED 1206 (metric 3216) | 24-21SURC/S530-A2 | 630-HSMH-H150 |
+| R1, R3, R3 | 1K 1206 (metric 3216) | 1206S4F1001T5E | 71-RCA12061K00JNEA |
+| R2 | 10K 1206 (metric 3216) | 1206S4F1002T5E | 667-ERA-8VEB1002V |
+| C1, C2, C3 | 100nF 1206 (metric 3216) | 1206B104J500CT | 581-KAM31BR71H104KT |
