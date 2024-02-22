@@ -13,7 +13,7 @@ Specifically, it has:
  - LED on ``gpio``
  - Breakouts for pins ``mprj_io[37:5]`` as well as ``mprj_io[0]``, ``mprj_io[1]`` and ``mprj_io[4]``
 
-Note: the board does not have the capability to program the 25Q32 spiflash in-place. You will need to solder it to a breakout board such as [this](https://protosupplies.com/product/pcb-smd-soic-8-msop-8-tssop-8-to-dip-adapter5-pack/) and socket it using female headers on the GFMPW breakout. To program it, any number of portable ROM programmers can be used, such as the [CH341A](https://www.amazon.com/Programmer-Module-CH341A-Burner-5V-3-3V/dp/B07PFCJ8G9).
+Note: the board does not have the capability to program the 25Q32 spiflash in-place. You will need to solder it to a breakout board such as [this](https://protosupplies.com/product/pcb-smd-soic-8-msop-8-tssop-8-to-dip-adapter5-pack/) and socket it using female headers on the GFMPW breakout. To program it, any number of portable ROM programmers can be used, such as the [CH341A](https://www.amazon.com/Programmer-Module-CH341A-Burner-5V-3-3V/dp/B07PFCJ8G9) (I recommend this device as it is supported by the `flashrom` utility on most Linux distros).
 
 The pinout of the board is as such (a KiCad symbol is [also available](board_symbol.kicad_sym)):
 
