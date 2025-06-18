@@ -36,3 +36,11 @@ To edit the KiCad files, you will need to add the ``Caravel_Board.pretty`` footp
 | D1, D2 | LED 1206 (metric 3216) | 24-21SURC/S530-A2 | 630-HSMH-H150 |
 | R4, R5, R6 | 1K 1206 (metric 3216) | 1206S4F1001T5E | 71-RCA12061K00JNEA |
 | C1, C2, C3 | 1µF 0805 (metric 2012) | 08053C105J4T2A | 810-CGA4J3X7R1H105MS |
+
+Assembled board should look like this:
+
+![](finished_board.jpg)
+
+After building, the programmer hookup (CH341A) is like follows. This may even work for in-system programming, but the programmer powers the board, so its intended to be a standalone setup:
+
+![](programmer_hookup.png)
