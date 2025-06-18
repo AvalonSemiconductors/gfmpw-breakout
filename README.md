@@ -41,6 +41,7 @@ Assembled board should look like this:
 
 <img src="finished_board.jpg" width="200"/>
 
-After building, the programmer hookup (CH341A) is like follows. This may even work for in-system programming, but the programmer powers the board, so its intended to be a standalone setup:
+After building, the programmer hookup (CH341A) is like follows. This may even work for in-system programming, but the programmer powers the board, so its intended to be a standalone setup.
+Note that connecting the programmer holds caravel in reset until the physical connections to the programmer are disconnected.
 
 ![](programmer_hookup.png)
